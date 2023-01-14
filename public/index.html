@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT FORM</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+</head>
+<body>
+    <h2>Contact Form</h2>
+    <form action="send" method="POST" enctype="multipart/form-data" id="contact-form" >
+        <label for="name">
+            <span>Name</span>
+            <input type="text" name="name" placeholder="name" id="name">
+        </label>
+
+        <label for="email">
+            <span>Email</span>
+            <input type="email" name="email" placeholder="yourmail@gmail.com" id="email">
+        </label>
+
+        <label for="subject">
+            <span>Subject</span>
+            <input type="text" name="subject" placeholder="subject" id="subject">
+        </label>
+
+        <label for="message">
+            <span>Message</span>
+            <textarea name="Message" placeholder="Your Message" id="message" cols="30" rows="10"></textarea>
+        </label>
+
+        <input type="submit" value="Send">
+    </form>
+</body>
+</html>
